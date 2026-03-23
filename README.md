@@ -1,4 +1,4 @@
-# Metagenome Pipeline README
+# Metagenome Pipeline 
 
 ## Overview
 This is a fully reproducible metagenome analysis pipeline. It automates steps from quality control of raw sequencing reads to taxonomic binning using shell scripts.
