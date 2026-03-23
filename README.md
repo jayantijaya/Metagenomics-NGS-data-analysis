@@ -1,24 +1,13 @@
 # Metagenome Pipeline README
 
 ## Overview
-This is a fully reproducible metagenome analysis pipeline. It automates steps from quality control of raw sequencing reads to taxonomic binning using MEGAN.
+This is a fully reproducible metagenome analysis pipeline. It automates steps from quality control of raw sequencing reads to taxonomic binning using shell scripts.
 
 The pipeline performs the following steps:
 1. Quality control using **FastQC**
 2. Adapter trimming and read filtering using **Trimmomatic**
 3. Sequence alignment to protein databases using **DIAMOND**
 4. Conversion of SAM files to RMA files using **MEGAN tools** for taxonomic analysis
-
-## Requirements
-The pipeline requires the following software:
-- Bash (version >= 5.1)
-- FastQC (version 0.11.9)
-- Trimmomatic (version 0.32)
-- DIAMOND (version 2.0.15)
-- MEGAN tools (version 6.21.10)
-- Java (version 1.8)
-
-Dependencies can be listed in `requirements.txt` for reference.
 
 ## Input
 - Paired-end metagenomic FASTQ files with filenames in the format `sample_R1_001.fastq` and `sample_R2_001.fastq`.
