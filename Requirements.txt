@@ -1,0 +1,6 @@
+fastqc==0.11.9
+trimmomatic==0.32
+diamond==2.0.15
+megan-tools==6.21.10
+java==1.8
+bash==5.1
