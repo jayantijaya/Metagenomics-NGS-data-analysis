@@ -1,7 +1,7 @@
 # Metagenome Pipeline README
 
 ## Overview
-This is a fully reproducible metagenome analysis pipeline developed by **Jayanthi Jayakumar**. It automates steps from quality control of raw sequencing reads to taxonomic binning using MEGAN.
+This is a fully reproducible metagenome analysis pipeline. It automates steps from quality control of raw sequencing reads to taxonomic binning using MEGAN.
 
 The pipeline performs the following steps:
 1. Quality control using **FastQC**
@@ -52,7 +52,7 @@ The final combined results can be used for downstream taxonomic and functional a
 - The pipeline assumes the presence of a DIAMOND NR database and MEGAN GI-to-TaxID mapping file.
 
 ## License
-This pipeline is released under the MIT License. See `LICENSE` file for details.
+This pipeline is released under the GNU-GPL License. See `LICENSE` file for details.
 
 ## Author
 **Jayanthi Jayakumar**
